@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../css/stylePageLogin.css">
+</head>
+
+<body>
+    <div class="container-login">
+        <div class="left-container">
+            <h1>Faça login</h1>
+            <h1>E encontre o vinho perfeito para você</h1>
+            <img src="../img/vinheriaAgnello.svg" class="left-img" alt="logo vinheria agnello">
+        </div>
+
+        <div class="right-container">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="usuario">
+                </div>
+
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
+                </div>
+
+                <button class="btn-login" type="button" id="btnLogar" onclick="login()">Login</button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

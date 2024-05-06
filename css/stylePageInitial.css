@@ -1,0 +1,53 @@
+* {
+    font-size: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 32, 32);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #331212;
+}
+
+.recommended-wines img{
+    max-width: 200px; 
+    max-height: 200px; 
+    aspect-ratio: 16/9;
+}
+
+.section-carrossel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-carrossel li {
+    display: inline-block;
+    margin: 10px;
+}

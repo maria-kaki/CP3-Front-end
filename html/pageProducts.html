@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../css/stylePageProducts.css">
+</head>
+<body>
+    <div class="Container">
+        <nav>
+            <img src="../img/vinheriaAgnello.svg" alt="logo Vinharia Agnello">
+            <ul>
+                <li><a href="pageInitial.html">Início</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="pageProducts.html">Produtos</a></li>
+                <li><a href="#nossa-historia">Nossa história</a></li>
+                <li><a href="pageFormContact.html">Contato</a></li>
+            </ul>
+            <input type="search" id="search" name="search" placeholder="Digite o nome do vinho">
+            <div class="Carrinho">
+                <a href="#carrinho">&#128722;</a>
+            </div>               
+        </nav>
+        <section class="products">
+            <div class="main-text">
+                <h1>Produtos</h1>
+                <p>Conheça a elegância e sofisticação em sabores dos vinhos selecionados para você!</p>
+            </div>
+            <div class="section-products">
+                <div class="product">
+                    <button id="vinho" value="portada" name="product" type="button" onclick="produtoespecifico(this,'portada')">
+                        <h1>Vinho Portada</h1>
+                        <img name="vinho" class="Vinho" src="../img/portada.png" alt="Vinho portada">
+                        <br>
+                        <label for="vinho" class="valor" value="79.90">RS 79,90</label>
+                    </button>
+                </div>
+                <div class="product">
+                    <button id="vinho" value="pronutto" name="product"  type="button" onclick="produtoespecifico(this, 'pronutto')">
+                        <h1>Vinho Pronutto</h1>
+                        <img name="vinho" class="Vinho" src="../img/prunotto.png" alt="Vinho prunotto">
+                        <br>
+                        <label for="vinho" class="valor" value="199.90">RS 199,90</label>
+                    </button>
+                </div>
+                <div class="product">
+                    <button id="vinho" value="sanmartin" name="product"  type="button" onclick="produtoespecifico(this,'sanmartin')">
+                        <h1>Vinho San Martin</h1>
+                        <img name="vinho" class="Vinho" src="../img/sanmartin.png" alt="Vinho san martin">
+                        <br>
+                        <label for="vinho" class="valor" value="69.90">RS 69,90</label>
+                    </button>
+                </div>
+                <div class="product">
+                    <button id="vinho" value="sansevero" name="product"  type="button" onclick="produtoespecifico(this,'sansevero')">
+                        <h1>Vinho San Severo</h1>
+                        <img name="vinho" class="Vinho" src="../img/sansevero.png" alt="Vinho san severo">
+                        <br>
+                        <label for="vinho" class="valor" value="25.90">RS 25,90</label>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

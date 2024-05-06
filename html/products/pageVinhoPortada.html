@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinho Portada</title>
+    <link rel="stylesheet" href="../../css/stylePageProductVinho.css">
+</head>
+<body>
+    <div class="Container">
+        <nav>
+            <img src="../../img/vinheriaAgnello.svg" alt="logo Vinharia Agnello">
+            <ul>
+                <li><a href="../pageInitial.html">Início</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="../pageProducts.html">Produtos</a></li>
+                <li><a href="#nossa-historia">Nossa história</a></li>
+                <li><a href="../pageFormContact.html">Contato</a></li>
+            </ul>
+            <input type="search" id="search" name="search" placeholder="Digite o nome do vinho">
+            <div class="Carrinho">
+                <a href="#carrinho">&#128722;</a>
+            </div>               
+        </nav>
+        <main>
+            <div class="vinho">
+                <h1>Vinho Portada</h1>
+                <div class="organizacao">
+                    <div class="imagem">
+                        <img src="../../img/portada.png" alt="Vinho Portada">
+                    </div>
+                    <div class="descricao">
+                        <p>Este vinho é uma expressão da região do Vale do Douro, em Portugal, conhecida por seus vinhos encorpados e cheios de caráter. Produzido a partir das uvas típicas da região, como Touriga Nacional, Touriga Franca e Tinta Roriz, ele apresenta uma combinação única de sabores e aromas que refletem o terroir singular do Douro. Com notas de frutas maduras, especiarias e taninos suaves, este vinho é uma verdadeira ode à tradição vinícola portuguesa.</p>
+                        <p for="vinho" id="valor" value="79.90">RS 79,90</p>
+                        <label for="quantidade">Adicione a quantidade</label>
+                        <input min="0" value="0" type="number" name="quantidade" id="quantidade">
+                        <p id="total">Total: R$ 0,00</p>
+                        <div class="desconto">
+                            <label for="desconto">Adicionar cupom de desconto: </label>
+                            <input id="desconto" type="text">
+                            <button id="desconto" type="button" onclick="desconto()">Aplicar</button>
+                        </div>
+                        <button class="carrinho" type="button" onclick="comprarproduto(this,'Portada')">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="acompanhamentos">
+                <h3>Receitas que caiem bem com este vinho
+                    Queijos
+                </h3>
+                <a href="https://www.receitasnestle.com.br/receitas/bacalhau-crocante" class="href"> Bacalhau </a><br> 
+                <a href="https://www.tudogostoso.com.br/receita/324-massa-de-pizza.html" class="href">Pizza</a><br>
+                <a href="https://www.oqueijolatra.com.br/queijos" class="href">Queijos</a> 
+            </div>
+        </main>
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

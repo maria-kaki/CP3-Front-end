@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="../css/stylePageInitial.css">
+</head>
+<body>
+    <div class="Container">
+        <nav>
+            <img src="../img/vinheriaAgnello.svg" alt="logo Vinharia Agnello">
+            <ul>
+                <li><a href="pageInitial.html">Início</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="pageProducts.html">Produtos</a></li>
+                <li><a href="#nossa-historia">Nossa história</a></li>
+                <li><a href="pageFormContact.html">Contato</a></li>
+            </ul>
+            <input type="search" id="search" name="search" placeholder="Esta com sede?">
+            <div class="Carrinho">
+                <a href="#carrinho">&#128722;</a>
+            </div>               
+        </nav>
+        <header>
+            <div class="image-header">
+                <img src="../img/fotoHeader.png" alt="Vinhos com Uvas ao lado" style="max-width: 300px; max-height: 300px; aspect-ratio: 16/9;">
+            </div>
+            <div class="text-header">
+                <h1>VINHERIA AGNELLO</h1>
+                <h2>EXCELÊNCIA EM VINHOS</h2>
+                <button type="button">Garantá já o seu</button>
+            </div>
+        </header>
+        <main>
+
+            <!-- Section of the recommended wines -->
+
+            <section class="recomend">
+                <div class="main-text">
+                    <h3>Recomendações</h3>
+                    <p>Conheça a elegância e sofisticação em sabores dos vinhos selecionados para você!</p>
+                </div>
+
+                <!-- carrossel of the wines (img is button) -->
+
+                <div class="section-carrossel">
+                    <div class="recommended-wines">
+                        <button id="vinho" value="portada" name="product" type="button" onclick="produtoespecifico(this,'portada')">
+                            <h1>Vinho Portada</h1>
+                            <img src="../img/portada.png" alt="Vinho Portada">
+                            <label for="vinho" id="valor" value="79.90">RS 79,90</label>
+                        </button>
+                        <li class="linha"> </li>
+                    </div>
+
+                    <div class="recommended-wines">
+                        <button id="vinho" value="pronutto" name="product" type="button" onclick="produtoespecifico(this,'pronutto')">
+                            <h1>Vinho Pronutto</h1>
+                            <img src="../img/prunotto.png" alt="Vinho Pronutto">
+                            <label for="vinho" id="valor" value="199.90">RS 199,90</label>
+                        </button>
+                        <li class="linha"> </li>
+                    </div>
+
+                    <div class="recommended-wines">
+                        <button id="vinho" value="sanmartin" name="product" type="button" onclick="produtoespecifico(this,'sanmartin')">
+                            <h1>Vinho San Martin</h1>
+                            <img src="../img/sanmartin.png" alt="Vinho San Martin">
+                            <label for="vinho" id="valor" value="69.90">RS 69,90</label>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section of the ""our work philosophy" -->
+
+            <section class="our-work-philosophy">
+                <div class="image-philosophy">
+                    <img class="casal-vinho" src="../img/casalmatoevinho.jpg" alt="casal Feliz na Vinicola e Vinho">
+                </div>
+
+                <div class="background-speak-balloons">
+                    <h1>Nossa Filosofia de Trabalho</h1>
+                    <div class="balloons-paixao">
+                        <img class="speak-balloons-icon" src="../img/balao-de-fala.png" alt="icone balão de fala">
+                        <h2>Paixão pela qualidade.</h2>
+                    </div>
+
+                    <div class="balloons-atendimento">
+                        <img class="speak-balloons-icon" src="../img/balao-de-fala.png" alt="icone balão de fala">
+                        <h2>Atendimento personalizado.</h2>
+                    </div>
+
+                    <div class="balloons-tradicao">
+                        <img class="speak-balloons-icon" src="../img/balao-de-fala.png" alt="icone balão de fala">
+                        <h2>Conexão com a tradição.</h2>
+                    </div>
+                </div>
+
+                <div class="linha-entre-sessoes"> </div>
+            </section>
+            
+            <!-- Section of the "suppliers" -->
+
+            <section class="suppliers">
+                <h1>NOSSOS FORNECEDORES</h1>
+                <div class="carousel">
+                    <button class="esquerda"><img src="../img/setinhaesquerda.png" alt="seta esquerda"></button>
+                    <ul class="slides">
+                        <lu class="slide"><img src="../img/winelogo.png" alt="Wine Logo"></lu>
+                        <lu class="slide"><img src="../img/winebrand.png" alt="Wine Brand"></lu>
+                        <lu class="slide"><img src="../img/wine.png" alt="Wine"></lu>
+                        <lu class="slide"><img src="../img/redwine.png" alt="Red Wine"></lu>
+                    </ul>
+                    <button class="direita"><img src="../img/setinhadireita.png" alt="seta direita"></button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="containerfooter">
+                <div class="cinza-claro">
+                    <div class="openinghours">
+                        <h1>Horário de Funcionamento</h1>
+                        <p>Segunda a Sexta - 9h às 18h</p>
+                        <p>Sábado 12h às 18h</p>
+                        <p>Domingo 12h às 18h</p>
+                    </div>
+                    <div class="physicalstore">
+                        <h1>Loja Física</h1>
+                        <a href="https://www.google.com/maps/place/Rua+Endereço,+123,+São+Paulo+-+SP" target="_blank">Rua Endereço, 123, São Paulo - SP</a>
+                        <p>CNPJ: 13.728.856/0001-20</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h1>Contatos</h1>
+                    <div class="contato-esquerda">
+                        <p>
+                            <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Olá%20Vinheria%20Agnello,%20gostaria%20de%20saber%20mais%20sobre%20seus%20vinhos." target="_blank">
+                                <img src="../img/logowhatsapp.png" alt="WhatsApp">(11) 99999-9999
+                            </a>
+                        </p>
+                        <p>
+                            <a href="mailto:vinheriaagnello@contact.com">
+                                <img src="../img/logoemail.png" alt="Email">vinheriaagnello@contact.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contato-direita">
+                        <p>
+                            <a href="https://www.facebook.com/VinheriaAgnello" target="_blank">
+                                <img src="../img/logofacebook.png" alt="Facebook">Vinheria Agnello
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.instagram.com/agnellovinheria" target="_blank">
+                                <img src="../img/logoinstagram.png" alt="Instagram">@agnellovinheria
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contratos">
+                        <a href="pagePoliticadedados.html" target="_blank">Política de Dados</a>
+                        <a href="pageTrocasedevolucao.html" target="_blank">Trocas e Devolução</a>
+                    </div>                    
+                    <div class="direitos-autorais">
+                        <p>&copy; 2024 Vinheria Agnello. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
