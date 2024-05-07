@@ -7,34 +7,51 @@
     <link rel="stylesheet" href="../css/stylePageContact.css">
 </head>
 <body>
-    <div class="containerContact">
-        <div class="center-container">
-            <div class="card-contact">
-                <h1>FALE CONOSCO</h1>
-                <div class="texts">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" placeholder="Nome Completo" id="nome">
-                </div>
+</body>
+    <div class="Container">
+        <nav>
+            <img src="../img/vinheriaAgnello.svg" alt="logo Vinharia Agnello">
+            <ul>
+                <li><a href="pageInitial.html">Início</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="pageProducts.html">Produtos</a></li>
+                <li><a href="#nossa-historia">Nossa história</a></li>
+                <li><a href="pageFormContact.html">Contato</a></li>
+            </ul>
+            <input type="search" id="search" name="search" placeholder="Esta com sede?">
+            <div class="Carrinho">
+                <a href="#carrinho">&#128722;</a>
+            </div>               
+        </nav>
+        <div class="containerContact">
+            <div class="center-container">
+                <div class="card-contact">
+                    <h1>FALE CONOSCO</h1>
+                    <div class="texts">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Nome Completo" id="nome">
+                    </div>
 
-                <div class="texts">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="email" placeholder="E-mail" id="email">
-                </div>
+                    <div class="texts">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" placeholder="E-mail" id="email">
+                    </div>
 
-                <div class="texts">
-                    <label for="numerCell">Celular</label>
-                    <input type="text" name="numerCell" placeholder="Somente Números" id="numerCell">
-                </div>
+                    <div class="texts">
+                        <label for="numerCell">Celular</label>
+                        <input type="text" name="numerCell" placeholder="Somente Números" id="numerCell">
+                    </div>
 
-                <div class="texts">
-                    <label for="message">Mensagem</label>
-                    <input class="messageText" type="text" name="message" placeholder="Digite uma Mensagem" id="message">
-                </div>
+                    <div class="texts">
+                        <label for="message">Mensagem</label>
+                        <input class="messageText" type="text" name="message" placeholder="Digite uma Mensagem" id="message">
+                    </div>
 
-                <button class="btnEnviar" type="button" id="btnEnviar" onclick="btnEnter()">Enviar</button>
+                    <button class="btnEnviar" type="button" id="btnEnviar" onclick="btnEnter()">Enviar</button>
+
+                </div>
 
             </div>
-
         </div>
     </div>
 
