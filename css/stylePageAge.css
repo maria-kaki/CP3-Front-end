@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(255, 252, 233);
+    background-color: #F2F2F2;
     font-family: "Noto Sans", sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
     margin-bottom: 27px;
     display: flex;
     justify-content: center;
-    color: rgb(55, 146, 34);
+    color: rgb(134, 32, 32);
     font-size: 2rem;
 }
 

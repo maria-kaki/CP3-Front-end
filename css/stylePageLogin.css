@@ -13,7 +13,7 @@ body {
 .container-login {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(255, 252, 233);
+    background-color: #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ body {
 }
 
 .card-login > h1 {
-    color: rgb(55, 146, 34);
+    color: rgb(134, 32, 32);
     font-weight: 800;
     margin: 0;
 
