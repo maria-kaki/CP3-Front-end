@@ -200,13 +200,10 @@ footer {
     text-align: center;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .cinza-claro {
     background-color: #c7c7c7;
-    padding: 20px;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -215,7 +212,6 @@ footer {
 
 .cinza-escuro {
     background-color: #262626;
-    padding: 20px;
     width: 100%;
     color: #838383;
 }
@@ -228,7 +224,7 @@ footer {
 }
 
 .open-inghours {
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
   
 .open-inghours h1 {
@@ -243,7 +239,7 @@ footer {
 }
 
 .physical-store {
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
   
 .physical-store h1 {
@@ -275,12 +271,15 @@ footer {
 
 .contato-esquerda a {
     display: inline-block;
-    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
 }
   
 .contato-esquerda img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
     vertical-align: middle;
 }
@@ -296,12 +295,15 @@ footer {
   
 .contato-direita a {
     display: inline-block;
-    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
 }
   
 .contato-direita img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
     vertical-align: middle;
 }
@@ -311,7 +313,7 @@ footer {
     color: #c6c6c6;
     text-decoration: none;
     font-size: 14px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .direitos-autorais {
@@ -319,7 +321,6 @@ footer {
 }
   
 .direitos-autorais p {
-    font-size: 12px;
-    margin-bottom: 0;
+    font-size: 16px;
 }
 
