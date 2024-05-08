@@ -141,30 +141,53 @@ header .image-header {
     
 }
 
-.suppliers{
-    justify-content: start;
+.suppliers {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    text-align: center; 
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-.suppliers carousel{
+.carousel {
+    display: flex; 
+    overflow: hidden; 
+    width: fit-content;
+    gap:20px;
+}
+
+.slides {
     display: flex;
-    justify-content: start;
-    align-items: center;
-    text-align: center; 
+    list-style: none;
+    transition: transform 0.5s ease-in-out;
 }
 
-.suppliers img{
-    height: 150px;
-    width: 150px;
+.slide {
+    gap:20px;
+}
+
+.slide img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.carousel button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: 50px;
+    margin-top: 70px;
 }
 
 .esquerda img{
-    height: 30px;
-    width: 30px;
+    max-width: 30px;
+    height: auto;
 }
 
 .direita img{
-    height: 30px;
-    width: 30px;
+    max-width: 30px;
+    height: auto;
 }
