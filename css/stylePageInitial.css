@@ -161,10 +161,6 @@ header .image-header {
 .slides {
     display: flex;
     list-style: none;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide {
     gap:20px;
 }
 
@@ -191,3 +187,138 @@ header .image-header {
     max-width: 30px;
     height: auto;
 }
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container-footer {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cinza-claro {
+    background-color: #c7c7c7;
+    padding: 20px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinza-escuro {
+    background-color: #262626;
+    padding: 20px;
+    width: 100%;
+    color: #838383;
+}
+
+.direita-esquerda{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.open-inghours {
+    margin-bottom: 20px;
+}
+  
+.open-inghours h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.open-inghours p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.physical-store {
+    margin-bottom: 20px;
+}
+  
+.physical-store h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.physical-store a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+.physical-store p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+.contato-esquerda {
+    margin-bottom: 20px;
+}
+  
+.contato-esquerda p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contato-esquerda a {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.contato-esquerda img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contato-direita {
+    margin-bottom: 20px;
+}
+  
+.contato-direita p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+.contato-direita a {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.contato-direita img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contratos a,
+  .direitos-autorais a {
+    color: #c6c6c6;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.direitos-autorais {
+    margin-top: 20px;
+}
+  
+.direitos-autorais p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
