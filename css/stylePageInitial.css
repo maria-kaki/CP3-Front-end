@@ -125,30 +125,202 @@ header .image-header {
     color: rgb(134, 32, 32);
 }
 
-.suppliers{
-    justify-content: start;
-    align-items: center;
-    text-align: center; 
-}
-
-.suppliers carousel{
+.casal-vinho{
+    width:1920px;
+    height: 900px;
     display: flex;
-    justify-content: start;
-    align-items: center;
-    text-align: center; 
 }
 
-.suppliers img{
-    height: 150px;
-    width: 150px;
+.textNossaFilosofia{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    background-color: rgba(201, 201, 201, 0.895);
+    position: relative;
+    font-size: 25px;
+    
+}
+
+.suppliers {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.carousel {
+    display: flex; 
+    overflow: hidden; 
+    width: fit-content;
+    gap:20px;
+}
+
+.slides {
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+.slide img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.carousel button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: 50px;
+    margin-top: 70px;
 }
 
 .esquerda img{
-    height: 30px;
-    width: 30px;
+    max-width: 30px;
+    height: auto;
 }
 
 .direita img{
-    height: 30px;
-    width: 30px;
+    max-width: 30px;
+    height: auto;
 }
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container-footer {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinza-claro {
+    background-color: #c7c7c7;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinza-escuro {
+    background-color: #262626;
+    width: 100%;
+    color: #838383;
+}
+
+.direita-esquerda{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.open-inghours {
+    margin-top: 20px;
+}
+  
+.open-inghours h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.open-inghours p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.physical-store {
+    margin-top: 20px;
+}
+  
+.physical-store h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.physical-store a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+.physical-store p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+.contato-esquerda {
+    margin-bottom: 20px;
+}
+  
+.contato-esquerda p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contato-esquerda a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+  
+.contato-esquerda img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contato-direita {
+    margin-bottom: 20px;
+}
+  
+.contato-direita p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+  
+.contato-direita a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+  
+.contato-direita img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contratos a,
+  .direitos-autorais a {
+    color: #c6c6c6;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.direitos-autorais {
+    margin-top: 20px;
+}
+  
+.direitos-autorais p {
+    font-size: 16px;
+}
+
