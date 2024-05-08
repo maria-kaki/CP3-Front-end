@@ -125,21 +125,69 @@ header .image-header {
     color: rgb(134, 32, 32);
 }
 .casal-vinho{
-    width:1920px;
-    height: 900px;
+    width: 600px;
+    height: 450px;
     display: flex;
+    margin-left: 1400px;
+    margin-top: 100px;
 }
 .textNossaFilosofia{
     display:flex;
     flex-direction:column;
     text-align: center;
-    background-color: rgba(201, 201, 201, 0.895);
+    background-color: rgba(255, 255, 255, 0);
     position: relative;
     font-size: 25px;
+    margin-bottom: 525px;
+    margin-top: -500px;
+}
+.background-speak-balloons{
+    display:flex;
+    gap: 200px;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    margin-top: -400px;
+    margin-bottom: 20px;
+    word-wrap:break-word;
+}
+.linha-entre-sessoes{
+    background-color: black;
+    height: 10px;
+    margin-bottom: 50px;
+
+}
+.balloons-paixao{
+    background-color: rgb(212, 212, 212);
+    height: 300px;
+    width:300px;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.balloons-atendimento{
+    background-color: rgb(212, 212, 212);
+    height: 300px;
+    width:300px;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.balloons-tradicao{
+    background-color: rgb(212, 212, 212);
+    height: 300px;
+    width:300px;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
     
 }
-
-
 .suppliers{
     justify-content: start;
     align-items: center;
