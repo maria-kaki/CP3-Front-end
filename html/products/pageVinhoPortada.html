@@ -24,24 +24,32 @@
         </nav>
         <main>
             <div class="vinho">
-                <h1>Vinho Portada</h1>
+                <div class="vinhoPortada">
+                    <h1>Vinho Portada</h1>
+                </div>
                 <div class="organizacao">
                     <div class="imagem">
                         <img src="../../img/portada.png" alt="Vinho Portada">
                     </div>
                     <div class="descricao">
                         <p>Este vinho é uma expressão da região do Vale do Douro, em Portugal, conhecida por seus vinhos encorpados e cheios de caráter. Produzido a partir das uvas típicas da região, como Touriga Nacional, Touriga Franca e Tinta Roriz, ele apresenta uma combinação única de sabores e aromas que refletem o terroir singular do Douro. Com notas de frutas maduras, especiarias e taninos suaves, este vinho é uma verdadeira ode à tradição vinícola portuguesa.</p>
+                    </div>
+                    <div class="precos">
                         <p for="vinho" id="valor" value="79.90">RS 79,90</p>
                         <label for="quantidade">Adicione a quantidade</label>
                         <input min="0" value="0" type="number" name="quantidade" id="quantidade">
                         <p id="total">Total: R$ 0,00</p>
-                        <div class="desconto">
-                            <label for="desconto">Adicionar cupom de desconto: </label>
-                            <input id="desconto" type="text">
-                            <button id="desconto" type="button" onclick="desconto()">Aplicar</button>
-                        </div>
+                    </div>
+                    <div class="desconto">
+                        <label for="desconto">Adicionar cupom de desconto: </label>
+                        <input id="desconto" type="text">
+                        <button id="desconto" type="button" onclick="desconto()">Aplicar</button>
                         <button class="carrinho" type="button" onclick="comprarproduto(this,'Portada')">Adicionar ao carrinho</button>
                     </div>
+                    <div class="ImagemMato1">
+                        <img src="../../img/fotoDouro.jpg" alt="Vinho Portugal">
+                    </div>
+                    
                 </div>
             </div>
             <div class="acompanhamentos">
