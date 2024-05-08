@@ -124,3 +124,31 @@ header .image-header {
     background-color: white;
     color: rgb(134, 32, 32);
 }
+
+.suppliers{
+    justify-content: start;
+    align-items: center;
+    text-align: center; 
+}
+
+.suppliers carousel{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center; 
+}
+
+.suppliers img{
+    height: 150px;
+    width: 150px;
+}
+
+.esquerda img{
+    height: 30px;
+    width: 30px;
+}
+
+.direita img{
+    height: 30px;
+    width: 30px;
+}
