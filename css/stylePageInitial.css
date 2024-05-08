@@ -124,3 +124,18 @@ header .image-header {
     background-color: white;
     color: rgb(134, 32, 32);
 }
+.casal-vinho{
+    width:1920px;
+    height: 900px;
+    display: flex;
+}
+.textNossaFilosofia{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    background-color: rgba(201, 201, 201, 0.895);
+    position: relative;
+    font-size: 25px;
+    
+}
+
